@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial,sans-serif;
+}
+
+body {
+	background-image: url("background2.jpg");
+}
+
+.divheader {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+section {
+	width: 1024px;
+	background-color: #bababa90;
+	margin: auto;
+}
+
+.divfotopersonajes {
+	width: 350px;
+	height: 350px;
+}
+
+.fotopersonajes {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	border-radius: 50%;
+}
+
+.divdescripcionpersonajes {
+	width: 55%;
+	margin-left: 25px;
+	padding-top: 20px;
+}
+
+p {
+	font-size: 17px;
+}
+
+article {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+footer {
+	background-image: url(footer.jpg);
+	background-position: center;
+	width: 1024px;
+	height: 200px;
+	margin: auto;
+}
